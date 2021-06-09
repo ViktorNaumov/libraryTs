@@ -32,7 +32,7 @@ function App(props: any) {
       <div className="workzone">
         <div className="searcharea">
           <div className="input">
-            <DebounceInput
+            <DebounceInput placeholder="введите название книги"
               minLength={2}
               debounceTimeout={1000}
               onChange={(event) => onValueChange({ value: event.target.value })}
